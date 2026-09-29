@@ -47,4 +47,15 @@ class Cabra {
 
         return $this;
     }
+
+    public function getVida(): int
+    {
+        return $this->vida;
+    }
+    public function setVida(int $vida): self
+    {
+        $this->vida = $vida;
+
+        return $this;
+    }
 }
