@@ -1,5 +1,10 @@
 <?php
 require_once("Cabra.php");
+require_once("Tank.php");
+require_once("Mago.php");
+require_once("Cacador.php");
+require_once("Microondas.php");
+
 class Bicho{
     private string $bicho;
     private int $vida;
